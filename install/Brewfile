@@ -5,3 +5,5 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# General-purpose data compression with high compression ratio
+brew "xz"

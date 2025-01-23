@@ -6,6 +6,13 @@ if ! brew --version &>/dev/null; then
 fi
 brew bundle --file ~/.dotfiles/install/Brewfile --verbose
 
+# If pyenv is installed, install Python
+if command -v pyenv &>/dev/null; then
+    latest_python=$(pyenv install --list | grep -v '[a-zA-Z]' | grep -v - | tail -1 | tr -d '[:space:]')
+    pyenv install --skip-existing "$latest_python"
+    pyenv global "$latest_python"
+fi
+
 # Symlink configuration files using Stow
 if ! command -v stow &>/dev/null; then
     brew install stow
