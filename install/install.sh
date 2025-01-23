@@ -6,13 +6,6 @@ if ! brew --version &>/dev/null; then
 fi
 brew bundle --file ~/.dotfiles/install/Brewfile --verbose
 
-# If pyenv is installed, install Python
-if command -v pyenv &>/dev/null; then
-    latest_python=$(pyenv install --list | grep -v '[a-zA-Z]' | grep -v - | tail -1 | tr -d '[:space:]')
-    pyenv install --skip-existing "$latest_python"
-    pyenv global "$latest_python"
-fi
-
 # Symlink configuration files using Stow
 if ! command -v stow &>/dev/null; then
     brew install stow
@@ -57,4 +50,27 @@ if ! stow . 2>/dev/null; then
     else
         echo "${warning}Stow failed. Please resolve conflicts manually."
     fi
+fi
+
+# After symlinks are created, source .zshrc
+source ~/.zshrc
+
+# If pyenv is installed, install Python
+if command -v pyenv &>/dev/null; then
+    if [ -f ~/.pyenv/version ]; then
+        desired_python=$(cat ~/.pyenv/version)
+        if ! pyenv versions | grep -q "$desired_python"; then
+            echo "Installing Python version from .pyenv/version: $desired_python"
+            pyenv install "$desired_python"
+            pyenv global "$desired_python"
+        fi
+    else
+        latest_python=$(pyenv install --list | grep -v '[a-zA-Z]' | grep -v - | tail -1 | tr -d '[:space:]')
+        if ! pyenv versions | grep -q "$latest_python"; then
+            echo "Installing latest Python version: $latest_python"
+            pyenv install "$latest_python"
+            pyenv global "$latest_python"
+        fi
+    fi
+    echo "Using $(python --version)"
 fi
