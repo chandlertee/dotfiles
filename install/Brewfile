@@ -1,3 +1,5 @@
 tap "homebrew/bundle"
+# Python version management
+brew "pyenv"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
