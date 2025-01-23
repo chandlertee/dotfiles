@@ -1,0 +1,40 @@
+# Chromium based browser
+cask "arc"
+# E-books management software
+cask "calibre"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# Free app that makes your Internet safer
+cask "cloudflare-warp"
+# Voice and text chat software
+cask "discord"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Game development engine
+cask "godot"
+# Web browser
+cask "google-chrome"
+# Vector graphics editor
+cask "inkscape"
+# Free cross-platform office suite, fresh version
+cask "libreoffice"
+# Discover, download, and run local LLMs
+cask "lm-studio"
+# Free and open-source RSS reader
+cask "netnewswire"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Team communication and collaboration software
+cask "slack"
+# Music streaming service
+cask "spotify"
+# Video game digital distribution service
+cask "steam"
+# Open-source BitTorrent client
+cask "transmission"
+# Tool for telling interactive, nonlinear stories
+cask "twine"
+# Rust-based terminal
+cask "warp"
+# Multiplayer code editor
+cask "zed"
