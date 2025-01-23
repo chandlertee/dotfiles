@@ -1,9 +1,13 @@
 tap "homebrew/bundle"
+# Ruby environment tool
+brew "chruby"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
-# Organize software neatly under a single directory tree (e.g. /usr/local)
-brew "stow"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
+brew "ruby-install"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"

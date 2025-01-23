@@ -74,3 +74,17 @@ if command -v pyenv &>/dev/null; then
     fi
     echo "Using $(python --version)"
 fi
+
+# If chruby is installed, install Ruby
+if command -v chruby &>/dev/null; then
+    # Get desired Ruby version from .zshrc
+    desired_ruby=$(grep "chruby ruby-" ~/.zshrc | sed 's/.*ruby-\([0-9.]*\).*/\1/')
+    if [ -n "$desired_ruby" ]; then
+        chruby "ruby-$desired_ruby"
+        echo "Using Ruby version from .zshrc: $(ruby --version)"
+    else
+        latest_ruby=$(chruby | grep -v 'system' | tail -1 | tr -d '[:space:]')
+        chruby "$latest_ruby"
+        echo "No version found in .zshrc, using latest: $(ruby --version)"
+    fi
+fi
