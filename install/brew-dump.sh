@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-brew bundle dump --describe --force --file=~/.dotfiles/install/Brewfile
+# Dump formulas and taps with descriptions
+brew bundle dump --formula --tap --describe --force --file=~/.dotfiles/install/Brewfile
+# Dump casks with descriptions
+brew bundle dump --cask --mas --vscode --describe --force --file=~/.dotfiles/install/Caskfile
