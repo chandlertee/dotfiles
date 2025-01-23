@@ -1,0 +1,7 @@
+[user]
+	name = Chandler Thompson
+	email = 3262190+chandlertee@users.noreplyrgithub.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
