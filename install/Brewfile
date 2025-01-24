@@ -1,6 +1,22 @@
 tap "homebrew/bundle"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
 # Ruby environment tool
 brew "chruby"
+# Apjanke's fork of the classic cowsay project
+brew "cowsay"
+# Banner-like program prints strings as ASCII art
+brew "figlet"
+# Rainbows and unicorns in your console!
+brew "lolcat"
+# Clone of ls with colorful output, file type icons, and more
+brew "lsd"
+# Fast, highly customisable system info script
+brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# POSIX *nix fetch script using Nerdfonts
+brew "nerdfetch"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
