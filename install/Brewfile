@@ -1,4 +1,6 @@
+tap "charmbracelet/tap"
 tap "homebrew/bundle"
+tap "homebrew/services"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Ruby environment tool
@@ -7,6 +9,12 @@ brew "chruby"
 brew "cowsay"
 # Banner-like program prints strings as ASCII art
 brew "figlet"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Configurable static site generator
+brew "hugo"
+# YAML Parser
+brew "libyaml"
 # Rainbows and unicorns in your console!
 brew "lolcat"
 # Clone of ls with colorful output, file type icons, and more
@@ -19,6 +27,8 @@ brew "neovim"
 brew "nerdfetch"
 # Manage multiple Node.js versions
 brew "nvm"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
@@ -29,3 +39,5 @@ brew "xz"
 brew "ruby-install"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# The Charm Tool and Library 🌟
+brew "charmbracelet/tap/charm"
