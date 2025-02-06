@@ -1,4 +1,3 @@
-tap "charmbracelet/tap"
 tap "homebrew/bundle"
 tap "homebrew/services"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -28,7 +27,7 @@ brew "nerdfetch"
 # Manage multiple Node.js versions
 brew "nvm"
 # Create, run, and share large language models (LLMs)
-brew "ollama"
+brew "ollama", restart_service: :changed
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
@@ -39,5 +38,3 @@ brew "xz"
 brew "ruby-install"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# The Charm Tool and Library 🌟
-brew "charmbracelet/tap/charm"
