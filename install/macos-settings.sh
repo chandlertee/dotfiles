@@ -6,7 +6,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
    # Automatically hide and show the Dock
    defaults write com.apple.dock autohide -bool false
    # Set Dock tile size
-   defaults write com.apple.dock tilesize -int 36
+   defaults write com.apple.dock tilesize -int 30
    # Restart Dock to apply changes
    killall Dock
 fi
