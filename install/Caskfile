@@ -28,6 +28,10 @@ cask "logseq"
 cask "netnewswire"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Application that streams gameplay audio and video from your Playdate
+cask "playdate-mirror"
+# Playdate Lua and C APIs, docs and Simulator for local development
+cask "playdate-simulator"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
