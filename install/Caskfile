@@ -18,6 +18,8 @@ cask "godot"
 cask "google-chrome"
 # Vector graphics editor
 cask "inkscape"
+# Free and open-source painting and sketching program
+cask "krita"
 # Free cross-platform office suite, fresh version
 cask "libreoffice"
 # Discover, download, and run local LLMs
