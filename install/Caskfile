@@ -10,6 +10,8 @@ cask "chatgpt"
 cask "cloudflare-warp"
 # Voice and text chat software
 cask "discord"
+# Web browser focusing on privacy
+cask "duckduckgo"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Game development engine
