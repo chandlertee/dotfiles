@@ -8,12 +8,19 @@ cask "calibre"
 cask "chatgpt"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
+# Terminal emulator mimicking the old cathode display
+cask "cool-retro-term"
 # Voice and text chat software
 cask "discord"
 # Web browser focusing on privacy
 cask "duckduckgo"
+cask "font-fira-code-nerd-font"
+# Font editor and converter for outline and bitmap fonts
+cask "fontforge"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Font editor
+cask "glyphs"
 # Game development engine
 cask "godot"
 # Web browser
@@ -28,6 +35,12 @@ cask "libreoffice"
 cask "lm-studio"
 # Privacy-first, open-source platform for knowledge sharing and management
 cask "logseq"
+# 2D game framework for Lua
+cask "love"
+# ANSI editor
+cask "moebius"
+# Tool to create text-based art
+cask "monodraw"
 # Free and open-source RSS reader
 cask "netnewswire"
 # Knowledge base that works on top of a local folder of plain text Markdown files
@@ -64,6 +77,7 @@ vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "jrieken.vscode-pr-pinger"
 vscode "kaellarkin.hugo-shortcode-syntax"
+vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
