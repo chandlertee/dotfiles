@@ -1,5 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
+# General-purpose data compression with high compression ratio
+brew "xz"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Ruby environment tool
@@ -8,8 +10,6 @@ brew "chruby"
 brew "cowsay"
 # Banner-like program prints strings as ASCII art
 brew "figlet"
-# General-purpose data compression with high compression ratio
-brew "xz"
 # Command-line outline and bitmap font editor/converter
 brew "fontforge"
 # Open source programming language to build simple/reliable/efficient software
@@ -20,6 +20,8 @@ brew "golangci-lint"
 brew "gosec"
 # Configurable static site generator
 brew "hugo"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
 # YAML Parser
 brew "libyaml"
 # Rainbows and unicorns in your console!
