@@ -8,10 +8,16 @@ brew "chruby"
 brew "cowsay"
 # Banner-like program prints strings as ASCII art
 brew "figlet"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# Command-line outline and bitmap font editor/converter
+brew "fontforge"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Fast linters runner for Go
 brew "golangci-lint"
+# Golang security checker
+brew "gosec"
 # Configurable static site generator
 brew "hugo"
 # YAML Parser
@@ -38,9 +44,9 @@ brew "ollama", restart_service: :changed
 brew "pyenv"
 # Pyenv plugin to manage virtualenv
 brew "pyenv-virtualenv"
-# General-purpose data compression with high compression ratio
-brew "xz"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
+# State of the art linter for the Go programming language
+brew "staticcheck"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
