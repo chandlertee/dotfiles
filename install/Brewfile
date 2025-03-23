@@ -1,13 +1,24 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
+tap "thezoraiz/ascii-image-converter"
+# Portable ASCII art graphics library
+brew "aalib"
+# Run your GitHub Actions locally
+brew "act"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# ANSI/ASCII art to PNG converter
+brew "ansilove"
+# ASCII-art image browser and animation viewer
+brew "aview"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Ruby environment tool
 brew "chruby"
 # Apjanke's fork of the classic cowsay project
 brew "cowsay"
+# Play, record, convert, and stream audio and video
+brew "ffmpeg"
 # Banner-like program prints strings as ASCII art
 brew "figlet"
 # Command-line outline and bitmap font editor/converter
@@ -22,6 +33,10 @@ brew "gosec"
 brew "hugo"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Convert JPG images to ASCII
+brew "jp2a"
+# Convert pixel information into colored ASCII art
+brew "libcaca"
 # YAML Parser
 brew "libyaml"
 # Rainbows and unicorns in your console!
@@ -38,6 +53,8 @@ brew "neofetch"
 brew "neovim"
 # POSIX *nix fetch script using Nerdfonts
 brew "nerdfetch"
+# Image manipulation
+brew "netpbm"
 # Manage multiple Node.js versions
 brew "nvm"
 # Create, run, and share large language models (LLMs)
@@ -52,3 +69,7 @@ brew "ruby-install"
 brew "staticcheck"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Color-based alternative to figlet (uses libcaca)
+brew "toilet"
+# Convert images into ascii art
+brew "thezoraiz/ascii-image-converter/ascii-image-converter"
