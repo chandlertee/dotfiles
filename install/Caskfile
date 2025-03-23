@@ -14,11 +14,15 @@ cask "cool-retro-term"
 cask "discord"
 # Web browser focusing on privacy
 cask "duckduckgo"
+# Launcher for *Epic Games* games
+cask "epic-games"
 cask "font-fira-code-nerd-font"
 # Font editor and converter for outline and bitmap fonts
 cask "fontforge"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Free and open-source image editor
+cask "gimp"
 # Font editor
 cask "glyphs"
 # Game development engine
@@ -55,12 +59,16 @@ cask "slack"
 cask "spotify"
 # Video game digital distribution service
 cask "steam"
+# Flexible level editor
+cask "tiled"
 # Open-source BitTorrent client
 cask "transmission"
 # Tool for telling interactive, nonlinear stories
 cask "twine"
 # Rust-based terminal
 cask "warp"
+# Agentic IDE powered by AI Flow paradigm
+cask "windsurf"
 # Multiplayer code editor
 cask "zed"
 vscode "akmittal.hugofy"
