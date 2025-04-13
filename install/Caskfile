@@ -53,6 +53,8 @@ cask "obsidian"
 cask "playdate-mirror"
 # Playdate Lua and C APIs, docs and Simulator for local development
 cask "playdate-simulator"
+# Comic viewer/reader
+cask "simple-comic"
 # Team communication and collaboration software
 cask "slack"
 # Music streaming service
