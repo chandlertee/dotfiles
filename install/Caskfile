@@ -1,5 +1,7 @@
 # Chromium based browser
 cask "arc"
+# Electronics prototyping platform
+cask "arduino-ide"
 # 3D creation suite
 cask "blender"
 # E-books management software
@@ -76,6 +78,7 @@ cask "zed"
 vscode "akmittal.hugofy"
 vscode "budparr.language-hugo-vscode"
 vscode "dbaeumer.vscode-eslint"
+vscode "docker.docker"
 vscode "dracula-theme.theme-dracula"
 vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
