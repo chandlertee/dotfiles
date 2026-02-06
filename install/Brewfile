@@ -1,37 +1,53 @@
-tap "homebrew/bundle"
-tap "homebrew/services"
 tap "thezoraiz/ascii-image-converter"
 # Portable ASCII art graphics library
 brew "aalib"
 # Run your GitHub Actions locally
 brew "act"
+# ANSI HTML adapter
+brew "aha"
+# Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode
+brew "ansifilter"
 # General-purpose data compression with high compression ratio
 brew "xz"
 # ANSI/ASCII art to PNG converter
 brew "ansilove"
+# Record and share terminal sessions
+brew "asciinema"
+# Aquarium animation in ASCII art
+brew "asciiquarium"
 # ASCII-art image browser and animation viewer
 brew "aview"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Draw boxes around text
+brew "boxes"
+# Versatile and fast Unicode/ASCII/ANSI graphics renderer
+brew "chafa"
 # Ruby environment tool
 brew "chruby"
 # Apjanke's fork of the classic cowsay project
 brew "cowsay"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Banner-like program prints strings as ASCII art
 brew "figlet"
 # Command-line outline and bitmap font editor/converter
-brew "fontforge"
+brew "fontforge", link: false
+# Infamous electronic fortune-cookie generator
+brew "fortune"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
 # Fast linters runner for Go
 brew "golangci-lint"
 # Golang security checker
 brew "gosec"
+# Image manipulation
+brew "netpbm"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
 # Configurable static site generator
 brew "hugo"
-# Tools and libraries to manipulate images in many formats
+# Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Convert JPG images to ASCII
 brew "jp2a"
@@ -53,12 +69,12 @@ brew "neofetch"
 brew "neovim"
 # POSIX *nix fetch script using Nerdfonts
 brew "nerdfetch"
-# Image manipulation
-brew "netpbm"
 # Manage multiple Node.js versions
 brew "nvm"
 # Create, run, and share large language models (LLMs)
 brew "ollama", restart_service: :changed
+# Monitor data's progress through a pipe
+brew "pv"
 # Python version management
 brew "pyenv"
 # Pyenv plugin to manage virtualenv

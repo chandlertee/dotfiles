@@ -1,7 +1,11 @@
+# Android SDK component
+cask "android-platform-tools"
 # Chromium based browser
 cask "arc"
 # Electronics prototyping platform
 cask "arduino-ide"
+# Multi-track audio editor and recorder
+cask "audacity"
 # 3D creation suite
 cask "blender"
 # E-books management software
@@ -20,7 +24,9 @@ cask "duckduckgo"
 cask "epic-games"
 cask "font-fira-code-nerd-font"
 # Font editor and converter for outline and bitmap fonts
-cask "fontforge"
+cask "fontforge-app"
+# Mind mapping and knowledge management software
+cask "freeplane"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Free and open-source image editor
@@ -33,6 +39,10 @@ cask "godot"
 cask "google-chrome"
 # Vector graphics editor
 cask "inkscape"
+# App providing offline access to Wikipedia and many other web sites
+cask "kiwix"
+# Desktop reader for Kobo eBooks
+cask "kobo"
 # Free and open-source painting and sketching program
 cask "krita"
 # Free cross-platform office suite, fresh version
@@ -49,6 +59,8 @@ cask "moebius"
 cask "monodraw"
 # Free and open-source RSS reader
 cask "netnewswire"
+# Open-source software for live streaming and screen recording
+cask "obs"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Application that streams gameplay audio and video from your Playdate
@@ -68,7 +80,9 @@ cask "tiled"
 # Open-source BitTorrent client
 cask "transmission"
 # Tool for telling interactive, nonlinear stories
-cask "twine"
+cask "twine-app"
+# Multimedia player
+cask "vlc"
 # Rust-based terminal
 cask "warp"
 # Agentic IDE powered by AI Flow paradigm
@@ -84,20 +98,22 @@ vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "eliostruyf.vscode-front-matter"
 vscode "eliostruyf.vscode-hugo-themer"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "jrieken.vscode-pr-pinger"
 vscode "kaellarkin.hugo-shortcode-syntax"
+vscode "ms-azuretools.vscode-containers"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode-remote.remote-containers"
 vscode "ms-vscode.extension-test-runner"
 vscode "ms-vscode.makefile-tools"
 vscode "ms-vscode.vscode-github-issue-notebooks"
+vscode "openai.chatgpt"
 vscode "ritwickdey.liveserver"
 vscode "rusnasonov.vscode-hugo"
 vscode "vintharas.learn-vim"
