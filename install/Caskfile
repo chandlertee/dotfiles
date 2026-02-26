@@ -22,9 +22,9 @@ cask "discord"
 cask "duckduckgo"
 # Launcher for *Epic Games* games
 cask "epic-games"
+# Ham radio digital modem application
+cask "fldigi"
 cask "font-fira-code-nerd-font"
-# Font editor and converter for outline and bitmap fonts
-cask "fontforge-app"
 # Mind mapping and knowledge management software
 cask "freeplane"
 # Terminal emulator that uses platform-native UI and GPU acceleration
