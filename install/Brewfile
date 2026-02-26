@@ -3,16 +3,16 @@ tap "thezoraiz/ascii-image-converter"
 brew "aalib"
 # Run your GitHub Actions locally
 brew "act"
-# ANSI HTML adapter
-brew "aha"
-# Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode
-brew "ansifilter"
-# General-purpose data compression with high compression ratio
-brew "xz"
 # Software library to render fonts
 brew "freetype"
 # XML-based font configuration API for X Windows
 brew "fontconfig"
+# General-purpose data compression with high compression ratio
+brew "xz"
+# ANSI HTML adapter
+brew "aha"
+# Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode
+brew "ansifilter"
 # ANSI/ASCII art to PNG converter
 brew "ansilove"
 # Record and share terminal sessions
@@ -93,5 +93,7 @@ brew "stow"
 brew "toilet"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
+# Versatile Commodore Emulator
+brew "vice"
 # Convert images into ascii art
 brew "thezoraiz/ascii-image-converter/ascii-image-converter"
