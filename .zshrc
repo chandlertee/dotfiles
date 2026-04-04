@@ -18,4 +18,7 @@ export NVM_DIR="$HOME/.nvm"
 # aliases
 # Added by Windsurf
 export PATH="/Users/chandler/.codeium/windsurf/bin:$PATH"
+# Added by Homebrew for ImageMagick
 export PATH="/opt/homebrew/opt/imagemagick-full/bin:$PATH"
+# Added for bin directory
+export PATH="$HOME/.local/bin:$PATH"
