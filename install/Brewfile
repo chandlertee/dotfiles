@@ -73,6 +73,8 @@ brew "neofetch"
 brew "neovim"
 # POSIX *nix fetch script using Nerdfonts
 brew "nerdfetch"
+# Low-code programming for event-driven applications
+brew "node-red"
 # Manage multiple Node.js versions
 brew "nvm"
 # Create, run, and share large language models (LLMs)

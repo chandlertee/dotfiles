@@ -33,7 +33,7 @@ cask "ghostty"
 cask "gimp"
 # Font editor
 cask "glyphs"
-# Game development engine
+# 2D and 3D game engine
 cask "godot"
 # Web browser
 cask "google-chrome"
@@ -51,8 +51,6 @@ cask "libreoffice"
 cask "lm-studio"
 # Privacy-first, open-source platform for knowledge sharing and management
 cask "logseq"
-# 2D game framework for Lua
-cask "love"
 # ANSI editor
 cask "moebius"
 # Tool to create text-based art
