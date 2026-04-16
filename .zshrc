@@ -1,8 +1,3 @@
-# pyenv
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
-# pyenv-virtualenv
-eval "$(pyenv virtualenv-init -)"
 # chruby
 source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
 source /opt/homebrew/opt/chruby/share/chruby/auto.sh

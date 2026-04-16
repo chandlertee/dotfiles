@@ -81,10 +81,6 @@ brew "nvm"
 brew "ollama", restart_service: :changed
 # Monitor data's progress through a pipe
 brew "pv"
-# Python version management
-brew "pyenv"
-# Pyenv plugin to manage virtualenv
-brew "pyenv-virtualenv"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
 brew "ruby-install"
 # State of the art linter for the Go programming language
