@@ -41,6 +41,12 @@ cask "glyphs"
 cask "godot"
 # Web browser
 cask "google-chrome"
+# Open-source video transcoder
+cask "handbrake-app"
+# Hex editor focussing on speed
+cask "hex-fiend"
+# Hex editor for reverse engineers
+cask "imhex"
 # Vector graphics editor
 cask "inkscape"
 # App providing offline access to Wikipedia and many other web sites
@@ -73,6 +79,8 @@ cask "playdate-simulator"
 cask "simple-comic"
 # Team communication and collaboration software
 cask "slack"
+# Visualisation, analysis, and annotation of music audio recordings
+cask "sonic-visualiser"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service
@@ -89,6 +97,8 @@ cask "vlc"
 cask "warp"
 # Agentic IDE powered by AI Flow paradigm
 cask "windsurf"
+# Network protocol analyzer
+cask "wireshark-app"
 # Multiplayer code editor
 cask "zed"
 vscode "akmittal.hugofy"
@@ -101,6 +111,7 @@ vscode "eamodio.gitlens"
 vscode "editorconfig.editorconfig"
 vscode "eliostruyf.vscode-front-matter"
 vscode "eliostruyf.vscode-hugo-themer"
+vscode "github.copilot-chat"
 vscode "github.vscode-pull-request-github"
 vscode "golang.go"
 vscode "kaellarkin.hugo-shortcode-syntax"
