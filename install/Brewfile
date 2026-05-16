@@ -89,6 +89,8 @@ brew "nvm"
 brew "ollama", restart_service: :changed
 # Print info and check PNG, JNG, and MNG files
 brew "pngcheck"
+# PDF rendering library (based on the xpdf-3.0 code base)
+brew "poppler"
 # Monitor data's progress through a pipe
 brew "pv"
 # Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby
